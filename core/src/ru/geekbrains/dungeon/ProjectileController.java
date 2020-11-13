@@ -18,6 +18,7 @@ public class ProjectileController {
         for (int i = 0; i < items.length; i++) {
             items[i] = new Projectile(region);
 
+
         }
     }
 

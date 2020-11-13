@@ -14,6 +14,7 @@ public class GameMap {
     public GameMap(TextureAtlas atlas) {
         this.grassTextur = atlas.findRegion("grass40");
         this.data = new byte[CELLS_X][CELLS_Y];
+
     }
 
     public void render(SpriteBatch batch) {

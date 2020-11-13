@@ -25,6 +25,7 @@ public class Projectile {
         active = false;
     }
 
+
     public void activate(float x, float y, float vx, float vy){
         active = true;
         position.set(x,y);

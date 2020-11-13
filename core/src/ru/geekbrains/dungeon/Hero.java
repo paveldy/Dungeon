@@ -31,7 +31,7 @@ public class Hero {
         this.a = 0.0f;
 
     }
-
+        // опредяляю в каую сторону мне надо двигаться
     public void updateAngel(float angle) {
         a = angle % 360;
         if (a == 0 || a == -0) {
@@ -61,15 +61,19 @@ public class Hero {
         updateAngel(angle);
 
         //++++++++++++++++++++++++++++++
+        // ходит по клеткам, но без привязки к GameMap
+        // не смог понять как сделать, чтобы вылетало две пули , но первая вылетала из то же точки, что и вторая(т.е. из
+        // самого танка)
+
         if (Gdx.input.isKeyJustPressed(Input.Keys.W)/*Gdx.input.isKeyPressed(Input.Keys.W)*/) {
             direction = true;
-//            position.mulAdd(velocity, dt); // for Gdx.input.isKeyPressed(Input.Keys.W)
+//            position.mulAdd(velocity, dt); // for Gdx.input.isKeyPressed(Input.Keys.W) плавный ход
             position.add(velocity);
             checkCoordinat(position);
         }
         if (Gdx.input.isKeyJustPressed(Input.Keys.S)  /*Gdx.input.isKeyPressed(Input.Keys.S)*/) {
             direction = false;
-//            position.mulAdd(velocity, -dt); // for Gdx.input.isKeyPressed(Input.Keys.S)
+//            position.mulAdd(velocity, -dt); // for Gdx.input.isKeyPressed(Input.Keys.S)  плавный ход
             position.mulAdd(velocity,-1);
             checkCoordinat(position);
         }
