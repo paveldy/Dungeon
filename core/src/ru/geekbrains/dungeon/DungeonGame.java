@@ -21,6 +21,7 @@ public class DungeonGame extends ApplicationAdapter {
 
     @Override
     public void create() {
+
         batch = new SpriteBatch();
         atlas = new TextureAtlas("images/game.pack");
         projectileController = new ProjectileController(atlas);
