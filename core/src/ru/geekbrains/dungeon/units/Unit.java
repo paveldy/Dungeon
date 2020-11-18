@@ -43,7 +43,6 @@ public abstract class Unit {
         return hp <= 0;
     }
 
-
     public int experience(int amount) {
         exp++;
         return exp;

@@ -12,7 +12,6 @@ public class Hero extends Unit {
     int targetX, targetY;
     int count;
 
-
     public Hero(TextureAtlas atlas, GameController gc) {
         super(gc, 1, 1, 10);
         this.texture = atlas.findRegion("knight");
