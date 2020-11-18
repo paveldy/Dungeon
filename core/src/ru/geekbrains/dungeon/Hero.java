@@ -31,6 +31,7 @@ public class Hero {
         this.a = 0.0f;
 
     }
+
 //        // опредяляю в каую сторону мне надо двигаться
 //    public void updateAngel(float angle) {
 //        a = angle % 360;

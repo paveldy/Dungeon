@@ -9,6 +9,7 @@ public class GameMap {
     public static final int CELLS_Y = 20;
     public static final int CELL_SIZE = 60;
 
+
     public int getCellsX() {
         return CELLS_X;
     }

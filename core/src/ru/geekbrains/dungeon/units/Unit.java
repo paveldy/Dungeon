@@ -37,6 +37,7 @@ public abstract class Unit {
         this.expMax=10;
     }
 
+
     public boolean takeDamage(int amount) {
         hp -= amount;
         return hp <= 0;

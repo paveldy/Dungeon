@@ -22,6 +22,7 @@ public class Projectile {
         this.active = false;
     }
 
+
     public void deactivate() {
         active = false;
     }

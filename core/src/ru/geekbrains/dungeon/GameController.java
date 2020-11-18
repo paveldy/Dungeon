@@ -13,6 +13,7 @@ public class GameController {
 
     private int cursorX, cursorY;
 
+
     public int getCursorX() {
         return cursorX;
     }

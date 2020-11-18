@@ -20,6 +20,7 @@ public class ProjectileController {
         }
     }
 
+
     public void activate(float x, float y, float vx, float vy) {
         for (Projectile p : items) {
             if (!p.isActive()) {

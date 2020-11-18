@@ -38,6 +38,7 @@ public class MonsterController {
                 if (m.getCellX() == cellX && m.getCellY() == cellY) {
                     return m;
                 }
+
             }
         }
         return null;

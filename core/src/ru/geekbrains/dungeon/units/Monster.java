@@ -17,6 +17,7 @@ public class Monster extends Unit {
         this.hp = -1;
     }
 
+
     public void activate(int cellX, int cellY) {
         this.cellX = cellX;
         this.cellY = cellY;

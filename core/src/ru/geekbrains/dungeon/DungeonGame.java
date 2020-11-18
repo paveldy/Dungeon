@@ -13,6 +13,7 @@ public class DungeonGame extends ApplicationAdapter {
     private SpriteBatch batch;
     private GameController gameController;
 
+
     // Домашнее задания:
     // 1. Разорабаться с кодом;
     // 2. Добавить герою параметр опыт, при уничтожении монстра опыт должен повыситься на 1;
