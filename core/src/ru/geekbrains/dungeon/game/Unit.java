@@ -24,6 +24,7 @@ public abstract class Unit implements Poolable {
     float innerTimer;
     int money;
 
+
     public int getDefence() {
         return defence;
     }
@@ -138,6 +139,7 @@ public abstract class Unit implements Poolable {
         float barX = px, barY = py + MathUtils.sin(innerTimer * 5.0f) * 2;
         batch.draw(textureHp, barX + 1, barY + 51, 58, 10);
         if (hp==hpMax) {
+
 
             batch.setColor(0.7f, 0.0f, 0.0f, 0.2f);//красный
             batch.draw(textureHp, barX + 2, barY + 52, 56, 8);

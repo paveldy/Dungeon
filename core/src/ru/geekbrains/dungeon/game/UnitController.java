@@ -58,6 +58,7 @@ public class UnitController {
         this.allUnits.addAll(monsterController.getActiveList());
         this.nextTurn();
     }
+
 //+++++++++++++++++++++++++++++++++++
     public void initNewMonster() {
         Monster monster = monsterController.newObject();

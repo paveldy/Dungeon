@@ -46,6 +46,7 @@ public class Hero extends Unit {
     }
 
     //++++++++++++++++++++++++++
+
     public void countCalc() {
         count++;
         if (count % 3 == 0) {
