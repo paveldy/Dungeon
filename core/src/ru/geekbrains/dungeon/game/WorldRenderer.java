@@ -33,6 +33,7 @@ public class WorldRenderer {
         batch.draw(cursorTexture, gc.getCursorX() * GameMap.CELL_SIZE, gc.getCursorY() * GameMap.CELL_SIZE);
         batch.setColor(1, 1, 1, 1);
 
+
         font24.draw(batch, "Player: " + gc.getUnitController().getHero().getName(), 20, 680);
        //+++++++++++++++++++++++++++++++++++++++++
         font24.draw(batch, "Round: " + gc.getUnitController().getHero().getCount(), 600, 680);
